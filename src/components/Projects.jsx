@@ -5,39 +5,41 @@ import { motion } from 'framer-motion';
 import './Projects.css';
 
 const projectsData = [
-  { /* AudioX Earbuds Showcase */ },
-  { /* Clap Switch Automation IoT */ },
-  { /* 2D Graphics Editor in C */ },
-
-  // ✅ New test project goes here
+  {
+    title: 'AudioX Earbuds Showcase',
+    desc: 'An immersive digital experience showcasing premium audio hardware features, full interactive sound specs, dynamic color changes, and 3D specs visualization.',
+    tech: ['React.js', 'Framer Motion', 'Web Audio API', 'CSS Grid/Flexbox'],
+    icon: Volume2,
+    github: 'https://github.com/SnehaS-github/audiox-earbuds',
+    demo: '#',
+    glow: 'cyan',
+  },
+  {
+    title: 'Clap Switch Automation IoT',
+    desc: 'An IoT-based smart automation system that detects specific clap patterns to control AC electrical appliances. It combines a sound sensor, Arduino, ESP8266 Wi-Fi, and relay modules to demonstrate noise-aware, hands-free appliance control.',
+    tech: ['Arduino C++', 'ESP8266 Wi-Fi', 'Relay Modules', 'Sound Sensor Board'],
+    icon: Cpu,
+    github: 'https://github.com/SnehaS-github/clap-switch-iot',
+    demo: '#',
+    glow: 'purple',
+  },
+  {
+    title: '2D Graphics Editor in C',
+    desc: 'A lightweight interactive desktop drawing program built from scratch in C, implementing graphics algorithms (Bresenham line, circle drawing) and standard file exports.',
+    tech: ['C Programming', 'graphics.h', 'Data Structures', 'File Handling'],
+    icon: Edit3,
+    github: 'https://github.com/SnehaS-github/2d-graphics-editor',
+    demo: '#',
+    glow: 'cyan',
+  },
   {
     title: 'Test Project',
     desc: 'This is a temporary project entry added to confirm deployment works correctly.',
     tech: ['React.js', 'CSS'],
-    icon: Cpu, // reuse any icon
+    icon: Cpu,
     github: '#',
     demo: '#',
     glow: 'purple',
-  },
-];
-
-{
-  title: 'Clap Switch Automation IoT',
-    desc: 'An IoT-based smart automation system that detects specific clap patterns to control AC electrical appliances. It combines a sound sensor, Arduino, ESP8266 Wi-Fi, and relay modules to demonstrate noise-aware, hands-free appliance control.',
-      tech: ['Arduino C++', 'ESP8266 Wi-Fi', 'Relay Modules', 'Sound Sensor Board'],
-        icon: Cpu,
-          github: 'https://github.com/SnehaS-github/clap-switch-iot',
-            demo: '#',
-              glow: 'purple',
-  },
-{
-  title: '2D Graphics Editor in C',
-    desc: 'A lightweight interactive desktop drawing program built from scratch in C, implementing graphics algorithms (Bresenham line, circle drawing) and standard file exports.',
-      tech: ['C Programming', 'graphics.h', 'Data Structures', 'File Handling'],
-        icon: Edit3,
-          github: 'https://github.com/SnehaS-github/2d-graphics-editor',
-            demo: '#',
-              glow: 'cyan',
   },
 ];
 
@@ -46,9 +48,7 @@ export default function Projects() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-      },
+      transition: { staggerChildren: 0.15 },
     },
   };
 
@@ -64,7 +64,9 @@ export default function Projects() {
   return (
     <section id="projects">
       <h2 className="section-title">Featured Projects</h2>
-      <p className="section-subtitle">A collection of engineering projects demonstrating hardware design, software development, and UI creation.</p>
+      <p className="section-subtitle">
+        A collection of engineering projects demonstrating hardware design, software development, and UI creation.
+      </p>
 
       <motion.div
         className="projects-grid"

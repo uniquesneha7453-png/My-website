@@ -1,16 +1,29 @@
-# React + Vite
+# Sneha.S | Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio! I am Sneha.S, a second-year B.Tech student specializing in Artificial Intelligence and Data Science at REVA University. I am passionate about coding, problem-solving, and exploring new technologies. My technical skills include Python, C programming, data science fundamentals, system design concepts, IoT applications, and web development using HTML, CSS, JavaScript, and Bootstrap. My projects include AudioX Earbuds, a Clap Switch Automation system using IoT, and a 2D Graphics Editor developed in C. I have completed certifications in Python for Data Science, a Data Science internship at 1Stop AI, entrepreneurship through the Wadhwani Foundation, and an Instagram System Design course from Scalar Technology. This portfolio highlights my technical skills, academic journey, projects, and enthusiasm for developing innovative technology solutions.
 
-Currently, two official plugins are available:
+## Skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Python and C Programming
+* Data Science Fundamentals
+* System Design Concepts
+* Internet of Things (IoT)
+* HTML, CSS, JavaScript, and Bootstrap
 
-## React Compiler
+## Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **AudioX Earbuds:** An innovation project focused on earbuds.
+* **Clap Switch Automation:** An IoT-based smart automation system.
+* **2D Graphics Editor:** A graphics editor developed using C.
 
-## Expanding the Oxlint configuration
+## Certifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* Python for Data Science
+* Data Science Internship – 1Stop AI
+* Entrepreneurship Certification – Wadhwani Foundation
+* Instagram System Design Course – Scalar Technology
+
+## Contact
+
+* **Email:** [uniquesneha7453@gmail.com](mailto:uniquesneha7453@gmail.com)
+* **University:** REVA University

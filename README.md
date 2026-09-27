@@ -27,3 +27,6 @@ Welcome to my personal portfolio! I am Sneha.S, a second-year B.Tech student spe
 
 * **Email:** [uniquesneha7453@gmail.com](mailto:uniquesneha7453@gmail.com)
 * **University:** REVA University
+## Getting Started
+
+To run this portfolio locally, install the dependencies using `npm install` and start the development server using `npm run dev`.

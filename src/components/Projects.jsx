@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     title: 'Clap Switch Automation IoT',
-    desc: 'An IoT-enabled automation solution designed to control AC electrical appliances triggered by specific acoustic clap patterns. Built with robust noise filtering algorithms.',
+    desc: 'An IoT-based smart automation system that detects specific clap patterns to control AC electrical appliances. It combines a sound sensor, Arduino, ESP8266 Wi-Fi, and relay modules to demonstrate noise-aware, hands-free appliance control.',
     tech: ['Arduino C++', 'ESP8266 Wi-Fi', 'Relay Modules', 'Sound Sensor Board'],
     icon: Cpu,
     github: 'https://github.com/SnehaS-github/clap-switch-iot',
@@ -82,7 +82,7 @@ export default function Projects() {
               <div className="project-info">
                 <h3 className="project-card-title">{project.title}</h3>
                 <p className="project-desc">{project.desc}</p>
-                
+
                 <div className="project-tech">
                   {project.tech.map((t, idx) => (
                     <span key={idx} className="tech-tag">{t}</span>
@@ -94,7 +94,7 @@ export default function Projects() {
                     <Github size={18} />
                     <span>Code</span>
                   </a>
-                  <a href={project.demo} className="project-link" onClick={(e) => { if(project.demo==='#') e.preventDefault(); }}>
+                  <a href={project.demo} className="project-link" onClick={(e) => { if (project.demo === '#') e.preventDefault(); }}>
                     <ExternalLink size={18} />
                     <span>Demo</span>
                   </a>

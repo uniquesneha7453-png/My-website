@@ -5,32 +5,39 @@ import { motion } from 'framer-motion';
 import './Projects.css';
 
 const projectsData = [
+  { /* AudioX Earbuds Showcase */ },
+  { /* Clap Switch Automation IoT */ },
+  { /* 2D Graphics Editor in C */ },
+
+  // ✅ New test project goes here
   {
-    title: 'AudioX Earbuds Showcase',
-    desc: 'An immersive digital experience showcasing premium audio hardware features, full interactive sound specs, dynamic color changes, and 3D specs visualization.',
-    tech: ['React.js', 'Framer Motion', 'Web Audio API', 'CSS Grid/Flexbox'],
-    icon: Volume2,
-    github: 'https://github.com/SnehaS-github/audiox-earbuds',
-    demo: '#',
-    glow: 'cyan',
-  },
-  {
-    title: 'Clap Switch Automation IoT',
-    desc: 'An IoT-based smart automation system that detects specific clap patterns to control AC electrical appliances. It combines a sound sensor, Arduino, ESP8266 Wi-Fi, and relay modules to demonstrate noise-aware, hands-free appliance control.',
-    tech: ['Arduino C++', 'ESP8266 Wi-Fi', 'Relay Modules', 'Sound Sensor Board'],
-    icon: Cpu,
-    github: 'https://github.com/SnehaS-github/clap-switch-iot',
+    title: 'Test Project',
+    desc: 'This is a temporary project entry added to confirm deployment works correctly.',
+    tech: ['React.js', 'CSS'],
+    icon: Cpu, // reuse any icon
+    github: '#',
     demo: '#',
     glow: 'purple',
   },
-  {
-    title: '2D Graphics Editor in C',
+];
+
+{
+  title: 'Clap Switch Automation IoT',
+    desc: 'An IoT-based smart automation system that detects specific clap patterns to control AC electrical appliances. It combines a sound sensor, Arduino, ESP8266 Wi-Fi, and relay modules to demonstrate noise-aware, hands-free appliance control.',
+      tech: ['Arduino C++', 'ESP8266 Wi-Fi', 'Relay Modules', 'Sound Sensor Board'],
+        icon: Cpu,
+          github: 'https://github.com/SnehaS-github/clap-switch-iot',
+            demo: '#',
+              glow: 'purple',
+  },
+{
+  title: '2D Graphics Editor in C',
     desc: 'A lightweight interactive desktop drawing program built from scratch in C, implementing graphics algorithms (Bresenham line, circle drawing) and standard file exports.',
-    tech: ['C Programming', 'graphics.h', 'Data Structures', 'File Handling'],
-    icon: Edit3,
-    github: 'https://github.com/SnehaS-github/2d-graphics-editor',
-    demo: '#',
-    glow: 'cyan',
+      tech: ['C Programming', 'graphics.h', 'Data Structures', 'File Handling'],
+        icon: Edit3,
+          github: 'https://github.com/SnehaS-github/2d-graphics-editor',
+            demo: '#',
+              glow: 'cyan',
   },
 ];
 
